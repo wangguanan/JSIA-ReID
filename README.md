@@ -7,7 +7,7 @@ This is the official implementation for JSIA-ReID(AAAI2020). Please refer our pa
 
 Guan'an Wang, Tianzhu Zhang, Jian Cheng, Si Liu, Yang Yang and Zengguang Hou
 
-![](https://github.com/wangguanan/AlignGAN/blob/master/images/framework.jpg)
+![](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/framework.png?raw=true)
 
 
 ## Bibtex
@@ -52,17 +52,10 @@ python main.py --dataset_path sysu-mm01-path --mode test --pretrained_model_path
 ## Experimental Results
 
 * Settings
-  * We trained our model with 4 GTX1080ti GPUs.
+  * We trained our model with 2 GTX1080ti GPUs.
 
 * Comparison with SOTA
-![](https://github.com/wangguanan/AlignGAN/blob/master/images/results.png)
-
-* Pixel Alignment Module
-![](https://github.com/wangguanan/AlignGAN/blob/master/images/images.png)
-
-* Feature ALignment Module
-![](https://github.com/wangguanan/AlignGAN/blob/master/images/feature-visualization.png)
-
+![](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/results.png?raw=true)
 
 
 ## Contacts
