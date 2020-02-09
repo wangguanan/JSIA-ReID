@@ -1,11 +1,10 @@
 # JSIA-ReID
-[AAAI2020] Cross-Modality Paired-Images Generation for RGB-InfraredPerson Re-Identification
 
 This is the official implementation for JSIA-ReID(AAAI2020). Please refer our paper for more details:
 
-**[[Paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_RGB-Infrared_Cross-Modality_Person_Re-Identification_via_Joint_Pixel_and_Feature_Alignment_ICCV_2019_paper.pdf), [Poster](https://github.com/wangguanan/AlignGAN/blob/master/images/final_poster.png?raw=true)] RGB-Infrared Cross-Modality Person Re-Identification via Joint Pixel and Feature Alignment** 
+**[[Paper](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/paper.pdf), [Poster](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/final_poster.png?raw=true)] Cross-Modality Paired-Images Generation for RGB-InfraredPerson Re-Identification** 
 
-Guan'an Wang, Tianzhu Zhang, Jian Cheng, Si Liu, Yang Yang and Zengguang Hou
+Guan'an Wang, Tianzhu Zhang, Ynag Yang, Jian Cheng, Jianlong Chang, Xu Liang and Zengguang Hou
 
 ![](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/framework.png?raw=true)
 
@@ -14,12 +13,11 @@ Guan'an Wang, Tianzhu Zhang, Jian Cheng, Si Liu, Yang Yang and Zengguang Hou
 
 If you find the code useful, please consider citing our paper:
 ```
-@InProceedings{Wang_2019_ICCV,
-author = {Wang, Guan'an and Zhang, Tianzhu and Cheng, Jian and Liu, Si and Yang, Yang and Hou, Zengguang},
+@InProceedings{Wang_2020_AAAI,
+author = "Guan-An {Wang} and Tianzhu {Zhang} and Yang {Yang} and Jian {Cheng} and Jianlong {Chang} and Xu {Liang} and Zengguang {Hou}",
 title = {RGB-Infrared Cross-Modality Person Re-Identification via Joint Pixel and Feature Alignment},
-booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-month = {October},
-year = {2019}
+booktitle = {AAAI-20 AAAI Conference on Artificial Intelligence},
+year = {2020}
 }
 ```
 
