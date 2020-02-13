@@ -43,7 +43,7 @@ python main.py --dataset_path sysu-mm01-path --mode train
 * pretrained model ([Google Drive](https://drive.google.com/drive/folders/1FGKrs02Z7Omw3z5wOqClpuzYNFo-LrWw?usp=sharing), [Baidu Disk](https://pan.baidu.com/s/18wntdVOvjyUHBA-9C0cJBg)(code:zsr8)), please download all the 8 files into a folder. 
 * test with the pre-trained model
 ```
-# test with pretrained model, please sysu-mm01-path and pretrained-model-path with your own paths
+# test with pretrained model, please replace sysu-mm01-path and pretrained-model-path with your own paths
 python main.py --dataset_path sysu-mm01-path --mode test --pretrained_model_path pretrained-model-path --pretrained_model_epoch 649
 ```
 
