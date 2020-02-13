@@ -56,16 +56,6 @@ def main(config):
         # main loop
         for current_epoch in range(start_train_epoch, config.warmup_reid_epoches + config.warmup_gan_epoches + config.train_epoches):
 
-            # test
-            if current_epoch % 10 == 0 and current_epoch > config.warmup_reid_epoches + config.warmup_gan_epoches:
-                results = test(config, base, loaders, brief=True)
-                for key in results.keys():
-                    logger('Time: {}\n Setting: {}\n {}'.format(time_now(), key, results[key]))
-
-            # visualize generated images
-            if current_epoch % 10 == 0 or current_epoch <= 10:
-                visualize(config, loaders, base, current_epoch)
-
             # train
             if current_epoch < config.warmup_reid_epoches: # warmup reid model
                 results = train_an_epoch(config, loaders, base, current_epoch, train_gan=True, train_reid=True, train_pixel=False, optimize_sl_enc=True)
@@ -79,6 +69,7 @@ def main(config):
             base.save_model(current_epoch)
 
         # test
+        visualize(config, loaders, base, current_epoch)
         results = test(config, base, loaders, brief=False)
         for key in results.keys():
             logger('Time: {}\n Setting: {}\n {}'.format(time_now(), key, results[key]))
