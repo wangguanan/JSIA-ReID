@@ -44,8 +44,8 @@ python main.py --dataset_path sysu-mm01-path --mode train
 * test with the pre-trained model
 ```
 # test with pretrained model, please sysu-mm01-path and pretrained-model-path with your own paths
-python main.py --dataset_path sysu-mm01-path --mode test --pretrained_model_path pretrained-model-path --pretrained_model_epoch 250
-
+python main.py --dataset_path sysu-mm01-path --mode test --pretrained_model_path pretrained-model-path --pretrained_model_epoch 649
+```
 
 ## Experimental Results
 
