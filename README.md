@@ -40,7 +40,7 @@ python main.py --dataset_path sysu-mm01-path --mode train
 ```
 
 ## Test with Pre-trained Model
-* pretrained model ([Google Drive](https://drive.google.com/drive/folders/1Q1qw3s04QEzY9G_ueZZ_lqzSvU9yk4zz?usp=sharing)), please download all the 4 files into a folder. 
+* pretrained model ([Google Drive](https://drive.google.com/drive/folders/1Q1qw3s04QEzY9G_ueZZ_lqzSvU9yk4zz?usp=sharing)， [Baidu Disk](https://pan.baidu.com/s/16uNrT0KXis8iY72uUwClOA)(code:usfu)), please download all the 4 files into a folder. 
 * test with the pre-trained model
 ```
 # test with pretrained model, please replace sysu-mm01-path and pretrained-model-path with your own paths
