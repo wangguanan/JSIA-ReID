@@ -2,7 +2,7 @@
 
 This is the official implementation for JSIA-ReID(AAAI2020). Please refer our paper for more details:
 
-**[[Paper](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/paper.pdf), [Poster](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/final_poster.png?raw=true)] Cross-Modality Paired-Images Generation for RGB-InfraredPerson Re-Identification** 
+**[[Paper](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/paper.pdf), [Poster](https://github.com/wangguanan/JSIA-ReID/blob/master/materials/final_poster.png?raw=true)] Cross-Modality Paired-Images Generation for RGB-Infrared Person Re-Identification** 
 
 Guan'an Wang, Tianzhu Zhang, Ynag Yang, Jian Cheng, Jianlong Chang, Xu Liang and Zengguang Hou
 
