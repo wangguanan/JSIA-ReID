@@ -13,7 +13,7 @@ Guan'an Wang, Tianzhu Zhang, Ynag Yang, Jian Cheng, Jianlong Chang, Xu Liang and
 
 If you find the code useful, please consider citing our paper:
 ```
-@InProceedings{Wang_2020_AAAI,
+@InProceedings{wang2020crossmodality,
 author = "Guan-An {Wang} and Tianzhu {Zhang} and Yang {Yang} and Jian {Cheng} and Jianlong {Chang} and Xu {Liang} and Zengguang {Hou}",
 title = {Cross-Modality Paired-Images Generation for RGB-Infrared Person Re-Identification},
 booktitle = {AAAI-20 AAAI Conference on Artificial Intelligence},
