@@ -15,7 +15,7 @@ If you find the code useful, please consider citing our paper:
 ```
 @InProceedings{Wang_2020_AAAI,
 author = "Guan-An {Wang} and Tianzhu {Zhang} and Yang {Yang} and Jian {Cheng} and Jianlong {Chang} and Xu {Liang} and Zengguang {Hou}",
-title = {RGB-Infrared Cross-Modality Person Re-Identification via Joint Pixel and Feature Alignment},
+title = {Cross-Modality Paired-Images Generation for RGB-Infrared Person Re-Identification},
 booktitle = {AAAI-20 AAAI Conference on Artificial Intelligence},
 year = {2020}
 }
