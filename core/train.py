@@ -84,7 +84,7 @@ def train_gan_an_iter(config, loaders, base):
 
     # decode (within domain)
     reconst_rgb_images = base.generator_rgb.module.decode(real_rgb_contents, real_rgb_styles)
-    reconst_ir_images = base.generator_rgb.module.decode(real_ir_contents, real_ir_styles)
+    reconst_ir_images = base.generator_ir.module.decode(real_ir_contents, real_ir_styles)
 
     # decode (cross domain)
     fake_rgb_images = base.generator_rgb.module.decode(real_ir_contents, real_rgb_styles)
