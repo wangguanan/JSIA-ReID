@@ -66,7 +66,7 @@ python main.py --dataset_path sysu-mm01-path --mode test --pretrained_model_path
 
 ## License
 
-This repo is released under the MIT License
+This repo is released under the MIT License.
 
 ## Contacts
 If you have any question about the project, please feel free to contact with me.
