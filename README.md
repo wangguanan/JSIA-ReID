@@ -13,9 +13,9 @@ This is the official implementation for JSIA-ReID. Please refer our paper for mo
 
 If you find the code useful, please consider citing our paper:
 ```
-@InProceedings{yang2020cross,
+@InProceedings{wang2020cross,
   title={Cross-modality paired-images generation and augmentation for RGB-infrared person re-identification},
-  author={Yang, Yang and Zhang, Tianzhu and Cheng, Jian and Hou, Zengguang and Tiwari, Prayag and Pandey, Hari Mohan and others},
+  author={Guan'an, Wang and Yang, Yang and Zhang, Tianzhu and Cheng, Jian and Hou, Zengguang and Tiwari, Prayag and Pandey, Hari Mohan and others},
   journal={Neural Networks},
   volume={128},
   pages={294--304},
